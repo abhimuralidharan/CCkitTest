@@ -5,3 +5,6 @@ CCKit This is just an example program using CarbonKit (link https://github.com/e
 DISCLAIMER!! 
 
 This is just an example program.I will not be responsible for anybody violating the license guidelines of CARBON KIT(https://github.com/ermalkaleci/CarbonKit). Also,this repository will be deleted if license owner of the carbon kit ask me to do so.
+
+
+READ CARBON KITS LICENSE AGREEMENT BEFORE USING THIS!!!
