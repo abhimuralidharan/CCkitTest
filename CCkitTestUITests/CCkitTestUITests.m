@@ -2,8 +2,8 @@
 //  CCkitTestUITests.m
 //  CCkitTestUITests
 //
-//  Created by Mobiotics on 15/01/16.
-//  Copyright © 2016 Mobiotics. All rights reserved.
+//  Created by https://github.com/ermalkaleci/CarbonKit on 15/01/16.
+//  Copyright © 2016 https://github.com/ermalkaleci/CarbonKit. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

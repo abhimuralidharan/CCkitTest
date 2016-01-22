@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		2F04250E1C48B62E008D8DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F04250D1C48B62E008D8DFC /* main.m */; };
 		2F0425111C48B62E008D8DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425101C48B62E008D8DFC /* AppDelegate.m */; };
-		2F0425141C48B62E008D8DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425131C48B62E008D8DFC /* ViewController.m */; };
-		2F0425171C48B62E008D8DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0425151C48B62E008D8DFC /* Main.storyboard */; };
 		2F0425191C48B62E008D8DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0425181C48B62E008D8DFC /* Assets.xcassets */; };
 		2F04251C1C48B62E008D8DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F04251A1C48B62E008D8DFC /* LaunchScreen.storyboard */; };
 		2F0425271C48B62E008D8DFC /* CCkitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425261C48B62E008D8DFC /* CCkitTestTests.m */; };
 		2F0425321C48B62E008D8DFC /* CCkitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425311C48B62E008D8DFC /* CCkitTestUITests.m */; };
+		2F0425421C48B66D008D8DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425401C48B66D008D8DFC /* ViewController.m */; };
+		2F0425431C48B66D008D8DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0425411C48B66D008D8DFC /* Main.storyboard */; };
+		2F0425461C48B6BC008D8DFC /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425451C48B6BC008D8DFC /* ViewControllerOne.m */; };
+		2F04254A1C48B72E008D8DFC /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0425491C48B72E008D8DFC /* CarbonTabSwipeNavigation.m */; };
+		2F04254D1C48B75A008D8DFC /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F04254C1C48B75A008D8DFC /* CarbonTabSwipeScrollView.m */; };
+		2F0425501C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F04254F1C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		2F04250D1C48B62E008D8DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F04250F1C48B62E008D8DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F0425101C48B62E008D8DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F0425121C48B62E008D8DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F0425131C48B62E008D8DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2F0425161C48B62E008D8DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F0425181C48B62E008D8DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F04251B1C48B62E008D8DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F04251D1C48B62E008D8DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,18 @@
 		2F04252D1C48B62E008D8DFC /* CCkitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCkitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0425311C48B62E008D8DFC /* CCkitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCkitTestUITests.m; sourceTree = "<group>"; };
 		2F0425331C48B62E008D8DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F04253F1C48B66D008D8DFC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F0425401C48B66D008D8DFC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F0425411C48B66D008D8DFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2F0425441C48B6BC008D8DFC /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		2F0425451C48B6BC008D8DFC /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		2F0425471C48B72E008D8DFC /* CarbonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonKit.h; sourceTree = "<group>"; };
+		2F0425481C48B72E008D8DFC /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		2F0425491C48B72E008D8DFC /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		2F04254B1C48B75A008D8DFC /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		2F04254C1C48B75A008D8DFC /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		2F04254E1C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		2F04254F1C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +116,12 @@
 			children = (
 				2F04250F1C48B62E008D8DFC /* AppDelegate.h */,
 				2F0425101C48B62E008D8DFC /* AppDelegate.m */,
-				2F0425121C48B62E008D8DFC /* ViewController.h */,
-				2F0425131C48B62E008D8DFC /* ViewController.m */,
-				2F0425151C48B62E008D8DFC /* Main.storyboard */,
+				2F04253F1C48B66D008D8DFC /* ViewController.h */,
+				2F0425401C48B66D008D8DFC /* ViewController.m */,
+				2F0425441C48B6BC008D8DFC /* ViewControllerOne.h */,
+				2F0425451C48B6BC008D8DFC /* ViewControllerOne.m */,
+				2F0425411C48B66D008D8DFC /* Main.storyboard */,
+				2FB3AC661C525A4400F2E6A4 /* CarbonKit */,
 				2F0425181C48B62E008D8DFC /* Assets.xcassets */,
 				2F04251A1C48B62E008D8DFC /* LaunchScreen.storyboard */,
 				2F04251D1C48B62E008D8DFC /* Info.plist */,
@@ -138,6 +154,20 @@
 				2F0425331C48B62E008D8DFC /* Info.plist */,
 			);
 			path = CCkitTestUITests;
+			sourceTree = "<group>";
+		};
+		2FB3AC661C525A4400F2E6A4 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				2F0425471C48B72E008D8DFC /* CarbonKit.h */,
+				2F0425481C48B72E008D8DFC /* CarbonTabSwipeNavigation.h */,
+				2F0425491C48B72E008D8DFC /* CarbonTabSwipeNavigation.m */,
+				2F04254B1C48B75A008D8DFC /* CarbonTabSwipeScrollView.h */,
+				2F04254C1C48B75A008D8DFC /* CarbonTabSwipeScrollView.m */,
+				2F04254E1C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.h */,
+				2F04254F1C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.m */,
+			);
+			name = CarbonKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0425431C48B66D008D8DFC /* Main.storyboard in Resources */,
 				2F04251C1C48B62E008D8DFC /* LaunchScreen.storyboard in Resources */,
 				2F0425191C48B62E008D8DFC /* Assets.xcassets in Resources */,
-				2F0425171C48B62E008D8DFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0425141C48B62E008D8DFC /* ViewController.m in Sources */,
+				2F04254A1C48B72E008D8DFC /* CarbonTabSwipeNavigation.m in Sources */,
+				2F04254D1C48B75A008D8DFC /* CarbonTabSwipeScrollView.m in Sources */,
+				2F0425421C48B66D008D8DFC /* ViewController.m in Sources */,
 				2F0425111C48B62E008D8DFC /* AppDelegate.m in Sources */,
 				2F04250E1C48B62E008D8DFC /* main.m in Sources */,
+				2F0425501C48B782008D8DFC /* CarbonTabSwipeSegmentedControl.m in Sources */,
+				2F0425461C48B6BC008D8DFC /* ViewControllerOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F0425151C48B62E008D8DFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F0425161C48B62E008D8DFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2F04251A1C48B62E008D8DFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +524,7 @@
 				2F0425381C48B62E008D8DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0425391C48B62E008D8DFC /* Build configuration list for PBXNativeTarget "CCkitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +533,7 @@
 				2F04253B1C48B62E008D8DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F04253C1C48B62E008D8DFC /* Build configuration list for PBXNativeTarget "CCkitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				2F04253E1C48B62E008D8DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

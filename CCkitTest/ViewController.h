@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  CCkitTest
+//  CarbonKitExample2
 //
-//  Created by Mobiotics on 15/01/16.
-//  Copyright © 2016 Mobiotics. All rights reserved.
+//  Created by 최완복 on 2015. 11. 25..
+//  Copyright © 2015년 Ermal Kaleci. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
